@@ -29,3 +29,14 @@
     font-weight: 600;
     
 }
+
+.icon-text {
+    display: flex;
+    align-items: center;
+    text-decoration: none; /* Remove o sublinhado do link */
+    color: inherit; /* Usa a cor herdada */
+  }
+  
+  .icon-text mat-icon {
+    margin-right: 8px; /* Espaço entre o ícone e o texto */
+  }
